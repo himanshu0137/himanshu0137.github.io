@@ -73,6 +73,22 @@ a {
   transition: left 0.3s ease;
 }
 
+.slide-container{
+  max-width: 100%;
+}
+.slide-container.about{
+  display: flex;
+  flex-direction: column;
+}
+
+.about .description{
+  flex-grow: 2;
+}
+
+.about .pic{
+  flex-grow: 1;
+}
+
 @media (min-width: 800px) {
   .profile-tabs h1, .profile-slide h1 {
     font-size: 3rem;

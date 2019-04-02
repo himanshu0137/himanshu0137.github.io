@@ -1,3 +1,7 @@
+const constants = {
+	dob: new Date(1996, 1, 15)
+}
+
 class StickyNavigation {
 
 	constructor() {
@@ -70,3 +74,5 @@ class StickyNavigation {
 }
 
 new StickyNavigation();
+
+document.getElementById('age').innerText = new Date().getFullYear() - constants.dob.getFullYear();

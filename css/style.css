@@ -13,7 +13,7 @@ a {
   align-items: center;
   height: 100vh;
   position: relative;
-  background: #eee;
+  background: #537690;
   text-align: center;
   padding: 0 2em;
 }
@@ -38,7 +38,7 @@ a {
   width: 100%;
   height: 70px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  background: #fff;
+  background: #c1e3e8;
   z-index: 10;
 }
 
